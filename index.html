@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>QuirkTech - Home</title>
+<style>
+    body { font-family: 'Segoe UI', sans-serif; background: #fffdf0; padding: 2rem; color: #333; }
+    .product-detail { max-width: 800px; margin: auto; }
+    img{ width: 200px; display: block; margin-bottom: 1rem; }
+    h1 { font-size: 2rem; }
+    button { background: #222; color: #fff; padding: 0.7rem 1.5rem; border: none; border-radius: 5px; cursor: pointer; }
+    /* Basic reset */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: Arial, sans-serif;
+line-height: 1.6;
+}
+
+.container{
+display: flex;/* This enables flexbox */
+min-height: 100vh;/* Full viewport height */
+}
+
+.product{
+padding: 20px;
+}
+
+/* Column sizing */
+.left-column{
+flex: 1;/* Takes up 1 portion of available space */
+background-color: #f4f4f4;
+}
+
+.middle-column{
+flex: 2;/* Takes up 2 portions (twice as much as side columns) */
+background-color: #ddd;
+}
+
+.right-column{
+flex: 1;/* Takes up 1 portion */
+background-color: #f4f4f4;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px){
+.container{
+flex-direction: column;/* Stack columns vertically on small screens */
+}
+}
+
+
+</style>
+</head>
+<body>
+ 
+<div class="container">
+    <header>
+        <div><strong>EmraadTech™</strong></div>
+        <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        </nav>
+        </header>
+   
+    <section class="hero">
+        <h1>Tech That Solves Problems You Didn't Know You Had</h1>
+        <p>Explore delightfully absurd gadgets powered by AI, Bluetooth, and questionable logic.</p>
+        <button>Shop Now</button>
+        </section>
+
+    <section class="products" id="products">
+        <div class="product left-column">
+        <imgsrc="https://via.placeholder.com/100?text=AI" alt="AI Excuse Generator">
+        <h3> AI-Generated Excuse Generator™</h3>
+        <p>"I was late because my fridge trapped me again."</p>
+        <p><strong>$49.99</strong></p>
+        <a href="product-ai-excuse.html"><button>View Details</button></a>
+        </div>
+        
+        <div class="product middle-column">
+        <imgsrc="https://via.placeholder.com/100?text=Toaster" alt="Bluetooth Toaster">
+        <h3>🍞ToastyText™ – Bluetooth Smart Toaster</h3>
+        <p>Texts you when your toast is ready. Finally, a toaster that *gets* you.</p>
+        <p><strong>$89.00</strong></p>
+        <a href="product-bluetooth-toaster.html"><button>View Details</button></a>
+        </div>
+        
+        <div class="product right-column">
+        <imgsrc="https://via.placeholder.com/100?text=Meme" alt="Auto-Meme Dispenser">
+        <h3>😂MemeSpitter™ – Auto-Meme Dispenser</h3>
+        <p>Need a laugh? Get AI-generated memes hourly. Because why not?</p>
+        <p><strong>$119.99</strong></p>
+        <a href="product-meme-dispenser.html"><button>View Details</button></a>
+        </div>
+        </section>
+        
+        <section class="why">
+        <h2>Why emraadTech?</h2>
+        <p>⚙️ Powered by AI & Bad Decisions | 🔋 Bluetooth-Enabled Everything | 📦 Free Shipping on Questionable Purchases</p>
+        </section>
+        
+        <section class="testimonials" id="reviews">
+        <h2>What Our Users Say</h2>
+        <p>“The toaster texts me more than my boyfriend.” – Chloe D., ⭐⭐⭐⭐⭐</p>
+        <p>“This excuse generator saved my job. I think.” – Josh M., ⭐⭐⭐⭐⭐</p>
+        </section>
+        
+        <section class="signup">
+        <h2>Stay in the Loop</h2>
+        <p>Subscribe for updates on our next weird invention.</p>
+        <input type="email" placeholder="Enter your email" />
+        <button>Join the Cult List</button>
+        </section>
+
+    </body>  
+<footer>
+    <p>© 2025 EmraadTech. We are not responsible if your toaster becomes sentient.</p>
+    <p>📧 Email: abdulmusai1960@gmail.com</p>
+    <p>🔗 Website: https://medium.com/@abdulmusai1960/subscribe</p>
+    <p>📺 YouTube: @abdulrahmanmusainuwa744</p>
+    <p>🐦 Twitter/X: Abdul_Inuwa</p>
+    <p>💼 LinkedIn: https://www.linkedin.com/in/abdulrahman-musa-inuwa-80384525a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</p>
+</footer>
+</div>
+</html>
